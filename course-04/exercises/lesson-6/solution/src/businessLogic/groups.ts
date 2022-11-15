@@ -1,5 +1,4 @@
 import * as uuid from 'uuid'
-
 import { Group } from '../models/Group'
 import { GroupAccess } from '../dataLayer/groupsAccess'
 import { CreateGroupRequest } from '../requests/CreateGroupRequest'
