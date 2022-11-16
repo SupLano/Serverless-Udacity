@@ -11,6 +11,7 @@ const logger = createLogger('auth');
 const jwksUrl = 'https://dev-wnaj625375r7akzi.us.auth0.com/.well-known/jwks.json';
 
 
+
 export const handler = async (
   event: CustomAuthorizerEvent
 ): Promise<CustomAuthorizerResult> => {
